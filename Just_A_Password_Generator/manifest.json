@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "Password Generator",
+	"version": "1.0",
+	
+	"description": "Generate random and strong passwords for your accounts!",
+	
+	"icons": {
+		"48": "icons/password_generator_firefox_48.png",
+		"96": "icons/password_generator_firefox_96.png"
+	},
+	
+	"browser_action": {
+		"default_icon": "icons/password_generator_firefox_48.png",
+		"default_title": "Password Generator",
+		"default_popup": "password_gen_popup_firefox.html"
+	}
+
+}
